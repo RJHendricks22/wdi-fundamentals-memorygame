@@ -12,24 +12,17 @@ h2 {
 }
 .board {
     height: 50%;
-    width: 50%;
+    width: 100%;
 }
 .card {
     height: 200px;
-    width: 150px;
+    width: 143px;
     border: 1px solid black;
-    background: rgba(255,255,0,1);
+    background-image: url(cardback.jpg);
+    background-size: contain;
     border-radius: 10px;
     float: left;
     margin: 8%;
-}
-.card:hover {
-    background: red;
-}
-.icon {
-    width: 34px;
-    margin-bottom: -10px;
-    bottom: -20px;
 }
 .name {
     color: #ff0000;
@@ -37,9 +30,8 @@ h2 {
 }
 footer {
     margin: 0 auto;
-    clear: both;
     background: #808080;
-    height: 36px;
+    padding: 20px;
 }
 nav {
     background: #808080;
@@ -62,4 +54,19 @@ nav {
     clear: both;
     height: 0;
     font-size: 0;
+}
+img {
+    height: 200px;
+    width: 150px;
+    background-size: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 8%;
+} 
+#message {
+    margin: 0 auto;
+    clear: both;
+    background-color: lightgrey;
+    font-size: 20px;
+    padding: 20px 0;
 }
